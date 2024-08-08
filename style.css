@@ -1,7 +1,7 @@
 body,html{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins;
     box-sizing: border-box;
 }
 
@@ -17,32 +17,46 @@ nav a{
     color: #a6a3a3;
     margin: 0 15px;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 30px;
     align-items: center;
     justify-content: center;
     
+}
+
+.navbar{
+    align-items: center;
+    padding-left: 26.5%;
 }
 
 nav .logo
 {
     float: left;
     font-weight:bolder;
-    color: #ea0350;
+    color: #be003f;
     font-size: 1.5rem;
     font-style: italic;
-    padding-left: 0;
+    padding-top: 10px;
+    
+    
+    
 }
 
 nav .resume
 {
-    background-color: rgb(250, 99, 222);
-    color: #a0023c;
+    background-color: rgb(242, 149, 225);
+    color: #db0606;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     float: right;
-    height: 4vh;
+    height: 2.5vh;
     font-size: 1rem;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-weight: bolder;
+    
 }
+
+
 
 .hero
 {
@@ -98,7 +112,7 @@ nav .resume
     display: inline-block;
     vertical-align: top;
     width: 45%;
-    padding-top: 10%;
+    padding-top: 11%;
    
     
     
