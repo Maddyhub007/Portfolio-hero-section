@@ -17,7 +17,7 @@ nav a{
     color: #a6a3a3;
     margin: 0 15px;
     text-decoration: none;
-    padding-left: 200px;
+    padding-left: 20px;
     align-items: center;
     justify-content: center;
     
@@ -27,7 +27,7 @@ nav .logo
 {
     float: left;
     font-weight:bolder;
-    color: #e91e63;
+    color: #ea0350;
     font-size: 1.5rem;
     font-style: italic;
     padding-left: 0;
@@ -35,11 +35,12 @@ nav .logo
 
 nav .resume
 {
-    background-color: rgb(251, 147, 232);
+    background-color: rgb(250, 99, 222);
     color: #a0023c;
     padding: 5px 10px;
     border-radius: 5px;
     float: right;
+    height: 4vh;
     font-size: 1rem;
 }
 
