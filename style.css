@@ -1,141 +1,118 @@
-body,html{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    font-family: Poppins;
-    box-sizing: border-box;
+    padding:0;
+    background-color: #fff;
 }
 
-nav
-{
-   justify-content: center;
-   align-items: center;
-   padding: 20px 50px;
-
+header {
+    background-color: #fff;
+    padding: 20px 10%;
+    justify-items: center;
 }
 
-nav a{
-    color: #a6a3a3;
+.navbar {
+    display: table;
+    width: 100%;
+}
+
+.navbar li {
     margin: 0 15px;
-    text-decoration: none;
-    padding-left: 30px;
-    align-items: center;
-    justify-content: center;
-    
+  }
+
+.logo {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #da1456;
+    font-weight: bold;
 }
 
-.navbar{
-    align-items: center;
-    padding-left: 26.5%;
-    margin-top: 15px;
-}
-
-nav .logo
-{
-    float: left;
-    font-weight:bolder;
-    font-size: 1.5rem;
-    font-style: italic;
-    
-    
-    
-    
-}
-
-.text
-{
-    background: linear-gradient(to right,rgb(230, 55, 243),rgb(233, 106, 33));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 10px;
-}
-
-
-nav .resume
-{
-    background-color: rgb(255, 91, 225);
-    color: #bb1435;
-    padding: 10px 20px;
-    border-radius: 10px;
-    float: right;
-    height: 2.5vh;
-    font-size: 1rem;
-    padding-top: 1%;
-    font-weight: bolder;
-
-    
-    
-}
-
-.resume{
-    margin-top: -20px;
-    width: 9vw;
+nav {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
 }
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
 
-
-.hero
-{
-    width: 90vw;
-    margin: 50px auto 0 auto;
-    overflow: hidden;
 }
 
-.hero .left
-{
+nav ul li {
     display: inline-block;
-    width: 45vw;
-    vertical-align: top;
-    padding: 0 0 0   40px;
-    padding-top: 10%;
+    margin-left: 20px;
 }
 
-.hero .left h1{
-    font-size: 2.5rem;
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+    font-weight: bold;
+}
+
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4afea;
+    color: #cd0045;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.hero {
+    display: table;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+
+h1 {
     color: #333;
-   
+    font-size: 36px;
 }
 
-.hero .left p{
-    font-size: 1.2rem;
-    color: #727171;
-    margin: 5px  0 20px;
-    
+p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.hero .left button
-{
-    background-color: rgba(131, 12, 206, 0.947);
-    color: #fff;
-    border: none;
-    padding: 10px 90px  ;
-    font-size: 1rem;
-    border-radius: 10px;
-    cursor: pointer;
-    
-}
-
-.hero .right img{
-    width: 35vw;
-    height: auto;
-    border-radius: 10px;
-    float: right;
-   
-    
-}
-
-.hero .right{
+.hire-btn {
     display: inline-block;
-    vertical-align: top;
-    width: 40vw;
-    padding-top: 11%;
-   
-    
-    
-    
+    padding: 10px 20px;
+    background-color: #8b47b3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
 }
-span{
-    color: rgb(164, 8, 216);
+
+.image {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 100px;
     
 }
 
+.image img {
+    max-width: 100%;
+    height:auto;
+    border-radius: 10px;
+}
+
+span
+{
+    color: #8b47b3;
+}
