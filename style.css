@@ -49,7 +49,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #777;
+    color: #b9b7b7;
     font-weight: bold;
 }
 
@@ -58,10 +58,11 @@ nav ul li a {
     padding: 10px 20px;
     background-color: #f4afea;
     color: #cd0045;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     margin-left: 20px;
+    height: 3vh;
 }
 
 .hero {
@@ -78,7 +79,7 @@ nav ul li a {
 }
 
 h1 {
-    color: #333;
+    color: #626262;
     font-size: 36px;
 }
 
@@ -103,16 +104,17 @@ p {
     display: table-cell;
     vertical-align: middle;
     padding-top: 100px;
+    padding-right: 50px;
     
 }
 
 .image img {
-    max-width: 100%;
+    width: 40vw;
     height:auto;
     border-radius: 10px;
 }
 
 span
 {
-    color: #8b47b3;
+    color: rgb(172, 12, 156);
 }
