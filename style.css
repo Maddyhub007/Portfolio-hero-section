@@ -1,30 +1,32 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding:0;
+    padding: 0;
     background-color: #fff;
 }
 
 header {
     background-color: #fff;
-    padding: 20px 10%;
-    justify-items: center;
+    padding: 20px 15px;
+    text-align: center;
 }
 
 .navbar {
     display: table;
     width: 100%;
+    text-align: center;
 }
 
 .navbar li {
+    display: inline-block;
     margin: 0 15px;
-  }
+}
 
 .logo {
-    display: table-cell;
-    vertical-align: middle;
     font-size: 24px;
-    color: #da1456;
+    background: linear-gradient(90deg, #cd0045, rgb(226, 105, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
 
@@ -38,8 +40,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    
-
+    vertical-align: middle;
 }
 
 nav ul li {
@@ -55,27 +56,30 @@ nav ul li a {
 
 .resume-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #f4afea;
     color: #cd0045;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
+    outline: none;
+    border: none;
     margin-left: 20px;
-    height: 3vh;
+    height: auto; 
 }
 
 .hero {
     display: table;
-    width: 80%;
+    max-width: 1200px; 
     margin: 50px auto;
+    padding: 20px;
 }
 
 .content {
-    display: table-cell;
-    vertical-align: middle;
-    padding-right: 20px;
+    float: left;
+    width: 45vw;
     padding-top: 100px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -91,30 +95,31 @@ p {
 
 .hire-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #8b47b3;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 7px;
+    max-width: 20vw; 
     text-decoration: none;
     margin-top: 20px;
+    border: none;
+    text-align: center;
     font-weight: bold;
 }
 
+
 .image {
-    display: table-cell;
-    vertical-align: middle;
+    float: right;
+    width: 40%;
     padding-top: 100px;
-    padding-right: 50px;
-    
 }
 
 .image img {
-    width: 40vw;
-    height:auto;
+    max-width: 100%; 
+    height: auto; 
     border-radius: 10px;
 }
 
-span
-{
+span {
     color: rgb(172, 12, 156);
 }
